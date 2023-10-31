@@ -17,7 +17,7 @@
             Console.WriteLine(details); 
             Console.WriteLine("amount to be deducted");
             int amount = Convert.ToInt32(Console.ReadLine());
-                if (accounts.Withdraw(amount))
+            if (accounts.Withdraw(amount))
                 {
                     Console.WriteLine("New Balance: " + accounts.Balance);
                     Console.WriteLine();
